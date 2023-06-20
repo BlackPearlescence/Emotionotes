@@ -1,0 +1,77 @@
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 128px;
+    color: lightskyblue;
+}
+
+span {
+    font-family: "Nunito", sans-serif;
+    font-size: 64px;
+    color: lightseagreen;
+}
+
+.cta-landing-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button {
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 550px;
+    font-weight: 800;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.share-btn { 
+    background-color: skyblue;
+}
+
+.share-btn:hover {
+    color: skyblue;
+    outline: 5px solid skyblue;
+}
+
+.view-btn {
+    background-color: turquoise;
+}
+
+.view-btn:hover {
+    color: turquoise;
+    outline: 5px solid turquoise;
+}
+
+.about-btn {
+    background-color: purple;
+}
+
+.about-btn:hover {
+    color: purple;
+    outline: 5px solid purple;
+}
