@@ -1,3 +1,20 @@
 textarea {
     resize: none;
 }
+
+
+
+.top-bar-create-thought {
+    height: 100px;
+    background-color: skyblue;
+    font-size: 64px;
+    font-family: "Nunito",sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
